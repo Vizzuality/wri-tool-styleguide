@@ -1,0 +1,14 @@
+{
+  "title": "WRI Tool Styleguide",
+  "files": [
+    "assets/styles/**/*.scss"
+  ],
+  "template": "./theme",
+  "css": "none",
+  "target": "./public",
+  "namespace": null,
+  "verbose": 3,
+  "counterCSS": null,
+  "staticLipsum": false,
+  "placeholderService": false
+}
