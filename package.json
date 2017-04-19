@@ -1,0 +1,13 @@
+{
+  "name": "wri-tool-styleguide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "sass": "node-sass assets/styles/ -o assets/styles/ --output-style compressed"
+  }
+}

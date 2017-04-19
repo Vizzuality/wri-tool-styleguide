@@ -1,0 +1,41 @@
+/**
+ * @atom Section title
+ * @section Typography
+ * @markup
+ *  <div class="f-section-title">Select the model you want to manage</div>
+ */
+.f-section-title {
+  font-family: $font-family-2;
+  font-size: $ff2-size-m;
+  font-weight: $font-weight-bold;
+  line-height: 1.74;
+  letter-spacing: 0.2px;
+  color: $color-dark-grey;
+}
+
+/**
+ * @atom Card title
+ * @section Typography
+ * @markup
+ *  <div class="f-card-title">GCAM. Global Change Assessment Model</div>
+ */
+.f-card-title {
+  font-family: $font-family-3;
+  font-size: $ff3-size-m;
+  line-height: 1.18;
+  color: $color-dark-grey;
+}
+
+/**
+ * @atom Subtitle
+ * @section Typography
+ * @markup
+ *  <div class="f-subtitle">Last utpdated on Mar 6</div>
+ */
+.f-subtitle {
+  font-family: $font-family-1;
+  font-size: $ff1-size-s;
+  line-height: 1.64;
+  letter-spacing: 0.5px;
+  color: rgba($color-dark-grey, 0.5);
+}

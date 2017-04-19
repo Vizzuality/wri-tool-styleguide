@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'AcuminPro';
+    font-weight: 400;
+    src: url('../fonts/AcuminPro.otf') format('embedded-opentype'),
+    url('../fonts/AcuminPro.otf');
+}
+
+@font-face {
+    font-family: 'AcuminPro';
+    font-weight: 700;
+    src: url('../fonts/AcuminPro-Bold.otf') format('embedded-opentype'),
+    url('../fonts/AcuminPro-Bold.otf');
+}
+
+@font-face {
+    font-family: 'AcuminProCond';
+    font-weight: 400;
+    src: url('../fonts/AcuminProCond.otf') format('embedded-opentype'),
+    url('../fonts/AcuminProCond.otf');
+}
+
+@font-face {
+    font-family: 'AcuminProCond';
+    font-weight: 700;
+    src: url('../fonts/AcuminProCond-Bold.otf') format('embedded-opentype'),
+    url('../fonts/AcuminProCond-Bold.otf');
+}
+
+@font-face {
+    font-family: 'AcuminProSemiCond';
+    font-weight: 400;
+    src: url('../fonts/AcuminProSemiCond.otf') format('embedded-opentype'),
+    url('../fonts/AcuminProSemiCond.otf');
+}
+
+@font-face {
+    font-family: 'AcuminProSemiCond';
+    font-weight: 600;
+    src: url('../fonts/AcuminProSemiCond-Semibold.otf') format('embedded-opentype'),
+    url('../fonts/AcuminProSemiCond-Semibold.otf');
+}
+
+@font-face {
+    font-family: 'AcuminProSemiCond';
+    font-weight: 200;
+    src: url('../fonts/AcuminProSemiCond-ExtraLight.otf') format('embedded-opentype'),
+    url('../fonts/AcuminProSemiCond-ExtraLight.otf');
+}
+
+.SG-layout {
+    -webkit-font-smoothing: antialiased;
+}

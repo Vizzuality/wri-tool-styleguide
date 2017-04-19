@@ -1,0 +1,32 @@
+/**
+ * @structure Model card
+ * @section Cards
+ * @markup
+ *  <div style="width: 440px; background-color: #eeeeee; padding: 50px;">
+ *    <div class="c-model-card">
+ *      <div class="f-card-title">GCAM. Global Change Assessment Model</div>
+ *      <div class="f-subtitle">Last utpdated on Mar 6</div>
+ *      <div class="c-button"><span>Select this model</span></div>
+ *    </div>
+ *  </div>
+ */
+.c-model-card {
+  position: relative;
+  width: 100%;
+  min-height: rem(220px);
+  padding: rem(26px) rem(20px);
+  border-radius: 2px;
+  background-color: $color-white;
+  box-shadow: 0 1px 0 0 $color-pale-grey;
+
+  .f-subtitle {
+    margin-top: 10px;
+  }
+
+  .c-button {
+    position: absolute;
+    bottom: rem(25px);
+    left: rem(20px);
+    width: calc(100% - #{rem(40px)});
+  }
+}

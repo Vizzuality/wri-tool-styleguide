@@ -4,7 +4,7 @@
     "assets/styles/**/*.scss"
   ],
   "template": "./theme",
-  "css": "none",
+  "css": "../assets/styles/components.css",
   "target": "./public",
   "namespace": null,
   "verbose": 3,

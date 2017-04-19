@@ -1,0 +1,78 @@
+/**
+ * @atom Default button
+ * @section Buttons
+ * @markup
+ *  <div style="width: 300px;">
+ *    <div class="c-button"><span>Select this model</span></div>
+ *  </div>
+ */
+.c-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: rem(35px);
+  padding: 0 rem(10px);
+  background-color: $color-mango;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+
+  span {
+    font-family: $font-family-3;
+    font-size: $ff3-size-s;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-align: center;
+    color: $color-white;
+  }
+
+  &:hover {
+    background-color: rgba($color-mango, 0.5);
+  }
+}
+
+/**
+ * @atom Hollow button
+ * @section Buttons
+ * @markup
+ *  <div style="width: 160px;">
+ *    <div class="c-hollow-button"><span>Cancel</span></div>
+ *  </div>
+ */
+.c-hollow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: rem(35px);
+  padding: 0 rem(10px);
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border: solid 1px $color-mango;
+
+  span {
+    font-family: $font-family-3;
+    font-size: $ff3-size-s;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-align: center;
+    color: $color-dark-grey;
+  }
+
+  &:hover {
+    background-color: $color-mango;
+
+    span {
+      color: $color-white;
+    }
+  }
+}
