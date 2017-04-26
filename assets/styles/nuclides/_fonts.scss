@@ -1,19 +1,21 @@
 $font-family-1: 'AcuminPro';
-$font-family-2: 'AcuminProCond';
-$font-family-3: 'AcuminProSemiCond';
+$font-family-2: 'AcuminProSemiCond';
+$font-family-3: 'AcuminProCond';
 
 $font-weight-extralight: 200;
 $font-weight-regular: 400;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
+$ff1-size-xs: 13px;
 $ff1-size-s: 14px;
 $ff1-size-m: 16px;
 
-$ff2-size-m: 23px;
+$ff2-size-s: 13px;
+$ff2-size-m: 22px;
+$ff2-size-xl: 30px;
 
-$ff3-size-s: 13px;
-$ff3-size-m: 22px;
+$ff3-size-m: 23px;
 
 @font-face {
   font-family: $font-family-1;
@@ -32,36 +34,36 @@ $ff3-size-m: 22px;
 @font-face {
   font-family: $font-family-2;
   font-weight: $font-weight-regular;
-  src: url('/assets/fonts/AcuminProCond.otf') format('embedded-opentype'),
-  url('/assets/fonts/AcuminProCond.otf');
-}
-
-@font-face {
-  font-family: $font-family-2;
-  font-weight: $font-weight-bold;
-  src: url('/assets/fonts/AcuminProCond-Bold.otf') format('embedded-opentype'),
-  url('/assets/fonts/AcuminProCond-Bold.otf');
-}
-
-@font-face {
-  font-family: $font-family-3;
-  font-weight: $font-weight-regular;
   src: url('/assets/fonts/AcuminProSemiCond.otf') format('embedded-opentype'),
   url('/assets/fonts/AcuminProSemiCond.otf');
 }
 
 @font-face {
-  font-family: $font-family-3;
+  font-family: $font-family-2;
   font-weight: $font-weight-semibold;
   src: url('/assets/fonts/AcuminProSemiCond-Semibold.otf') format('embedded-opentype'),
   url('/assets/fonts/AcuminProSemiCond-Semibold.otf');
 }
 
 @font-face {
-  font-family: $font-family-3;
+  font-family: $font-family-2;
   font-weight: $font-weight-extralight;
   src: url('/assets/fonts/AcuminProSemiCond-ExtraLight.otf') format('embedded-opentype'),
   url('/assets/fonts/AcuminProSemiCond-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: $font-family-3;
+  font-weight: $font-weight-regular;
+  src: url('/assets/fonts/AcuminProCond.otf') format('embedded-opentype'),
+  url('/assets/fonts/AcuminProCond.otf');
+}
+
+@font-face {
+  font-family: $font-family-3;
+  font-weight: $font-weight-bold;
+  src: url('/assets/fonts/AcuminProCond-Bold.otf') format('embedded-opentype'),
+  url('/assets/fonts/AcuminProCond-Bold.otf');
 }
 
 body {

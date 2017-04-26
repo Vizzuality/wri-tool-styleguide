@@ -1,0 +1,32 @@
+/**
+ * @atom Item header
+ * @section Headers
+ * @markup
+ *   <div class="c-item-header -color-2">
+ *    <div class="f-ff1-xs">Indicators</div>
+ *    <div class="f-ff1-s">40</div>
+ *   </div>
+ */
+.c-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: rem(12px) rem(20px) rem(6px) rem(20px);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+
+  &.-color-1 {
+    background-color: $color-white;
+    border-bottom: solid 1px $color-white-two;
+  }
+
+  &.-color-2 {
+    background-color: $color-white-three;
+    border-bottom: solid 1px $color-pale-grey;
+  }
+
+  .f-ff1-s {
+    color: rgba($color-dark-grey, 0.3);
+  }
+}

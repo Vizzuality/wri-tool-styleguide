@@ -9,8 +9,13 @@
 //Atoms
 @import "atoms/buttons";
 @import "atoms/typography";
+@import "atoms/form";
+@import "atoms/headers";
+@import "atoms/icons";
 
 //Molecules
+@import "molecules/navs";
+@import "molecules/cards";
+@import "molecules/form";
 
 //Structures
-@import "structures/cards";

@@ -1,0 +1,37 @@
+/**
+ * @molecule Form text input
+ * @section Form items
+ * @markup
+ *  <div class="c-form-item">
+ *    <div class="f-ff1-m-bold">Full Name</div>
+ *    <input type="text" value="Global Change Assessment Model" class="c-input-text"/>
+ *  </div>
+ */
+.c-form-item {
+
+  .f-ff1-m-bold {
+    margin-bottom: rem(-2px);
+  }
+}
+
+/**
+ * @molecule Form select
+ * @section Form items
+ * @markup
+ *  <div style="width: 100%; background-color: #eeeeee; padding: 50px;">
+ *    <div class="c-form-item">
+ *      <div class="f-ff1-m-bold">Development Year</div>
+ *      <div class="c-select">
+ *        <select>
+ *          <option selected>2012</option>
+ *          <option>2013</option>
+ *          <option>2014</option>
+ *          <option>2015</option>
+ *          <option>2016</option>
+ *          <option>2017</option>
+ *        </select>
+ *      </div>
+ *    </div>
+ *  </div>
+ */
+//

@@ -21,8 +21,8 @@
   border: 0;
 
   span {
-    font-family: $font-family-3;
-    font-size: $ff3-size-s;
+    font-family: $font-family-2;
+    font-size: $ff2-size-s;
     font-weight: $font-weight-semibold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -32,7 +32,7 @@
   }
 
   &:hover {
-    background-color: rgba($color-mango, 0.5);
+    background-color: rgba($color-mango, 0.7);
   }
 }
 
@@ -58,8 +58,8 @@
   border: solid 1px $color-mango;
 
   span {
-    font-family: $font-family-3;
-    font-size: $ff3-size-s;
+    font-family: $font-family-2;
+    font-size: $ff2-size-s;
     font-weight: $font-weight-semibold;
     text-transform: uppercase;
     letter-spacing: 1px;
