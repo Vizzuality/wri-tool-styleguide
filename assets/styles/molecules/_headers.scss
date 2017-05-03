@@ -1,5 +1,5 @@
 /**
- * @atom Item header
+ * @molecule Item header
  * @section Headers
  * @markup
  *   <div class="c-item-header -color-2">
@@ -17,16 +17,16 @@
   border-top-right-radius: 2px;
 
   &.-color-1 {
-    background-color: $color-white;
-    border-bottom: solid 1px $color-white-two;
+    background-color: $color-app-1;
+    border-bottom: solid 1px $color-app-4;
   }
 
   &.-color-2 {
-    background-color: $color-white-three;
-    border-bottom: solid 1px $color-pale-grey;
+    background-color: $color-app-3;
+    border-bottom: solid 1px $color-app-5;
   }
 
   .f-ff1-s {
-    color: rgba($color-dark-grey, 0.3);
+    color: rgba($color-app-2, 0.3);
   }
 }

@@ -10,12 +10,14 @@
 @import "atoms/buttons";
 @import "atoms/typography";
 @import "atoms/form";
-@import "atoms/headers";
 @import "atoms/icons";
 
 //Molecules
 @import "molecules/navs";
 @import "molecules/cards";
 @import "molecules/form";
+@import "molecules/headers";
 
 //Structures
+@import "structures/form";
+@import "structures/headers";
