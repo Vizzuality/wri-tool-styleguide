@@ -4,3 +4,9 @@
 # misc
 .DS_Store
 .idea/
+
+# generated files
+/public/fonts
+/public/styles
+/public/scripts
+/public/*.html
