@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "nucleus-styleguide": "^1.1.0"
   },
   "devDependencies": {
     "node-sass": "^4.5.2"
   },
   "scripts": {
+    "styleguide": "nucleus --config config.nucleus.json",
     "sass": "node-sass assets/styles/ -o assets/styles/ --output-style compressed"
   }
 }
