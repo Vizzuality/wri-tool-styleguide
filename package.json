@@ -10,6 +10,8 @@
   },
   "scripts": {
     "styleguide": "nucleus --config config.nucleus.json",
-    "sass": "node-sass assets/styles/ -o assets/styles/ --output-style compressed"
+    "sass": "node-sass assets/styles/ -o assets/styles/ --output-style compressed",
+    "build": "npm run styleguide && npm run sass",
+    "dev": "npm run build && python -m SimpleHTTPServer 8000"
   }
 }
