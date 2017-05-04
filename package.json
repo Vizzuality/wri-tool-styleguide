@@ -12,7 +12,7 @@
   "scripts": {
     "styleguide": "nucleus --config config.nucleus.json",
     "sass": "node-sass assets/styles/ -o assets/styles/ --output-style compressed",
-    "build": "npm run styleguide && npm run sass",
+    "build": "npm run sass && npm run styleguide",
     "dev": "npm run build && python -m SimpleHTTPServer 8000",
     "publish": "NODE_ENV=production npm run build && node ./scripts/publish"
   }

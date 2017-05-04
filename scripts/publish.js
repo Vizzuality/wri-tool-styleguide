@@ -5,4 +5,5 @@ ghpages.publish(path.join(__dirname, '../public'), (err) => {
   if (err) {
     console.error('Error: %s', err);
   }
+  console.info('Project published correctly!');
 });
