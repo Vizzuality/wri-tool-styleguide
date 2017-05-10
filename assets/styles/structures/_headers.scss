@@ -1,4 +1,26 @@
 /**
+ * @structure WRI header
+ * @section Headers
+ * @markup
+ *  <div class="c-wri-header">
+ *    <svg class="icon"><use xlink:href="#icon-WRI"></use></svg>
+ *  </div>
+ */
+.c-wri-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: rem(35px);
+  background-color: $color-app-2;
+  padding: 0 rem(20px);
+
+  .icon {
+    width: rem(211px);
+    height: rem(17px);
+  }
+}
+
+/**
  * @structure Landing header 1
  * @section Headers
  * @markup
