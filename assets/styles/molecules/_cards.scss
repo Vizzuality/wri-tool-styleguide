@@ -36,8 +36,13 @@
   min-height: rem(220px);
   padding: rem(26px) rem(20px) rem(70px) rem(20px);
 
+  .f-ff2-m {
+    line-height: 1.18;
+  }
+
   .f-ff1-s {
     margin-top: 10px;
+    line-height: 1.64;
   }
 }
 
@@ -66,6 +71,18 @@
   @extend %card-common;
   min-height: rem(257px);
   padding-bottom: rem(67px);
+
+  .f-ff1-m {
+    line-height: 1.63;
+  }
+
+  .f-ff1-s {
+    line-height: 1.64;
+  }
+
+  .f-ff1-xs {
+    line-height: 1.64;
+  }
 }
 
 /**
@@ -90,6 +107,10 @@
   min-height: rem(257px);
   padding-bottom: rem(30px);
   background-color: $color-app-3;
+
+  .f-ff1-m {
+    line-height: 1.63;
+  }
 }
 
 /**
@@ -119,5 +140,6 @@
 
   .f-ff1-s {
     margin-top: rem(11px);
+    line-height: 1.64;
   }
 }

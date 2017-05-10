@@ -130,19 +130,20 @@
 }
 
 /**
- * @atom Cell title button
+ * @atom Order filter button
  * @section Buttons
  * @markup
- *   <div class="c-cell-title-button">
+ *   <div class="c-order-filter-button">
  *    <div class="f-ff1-m-bold">Scenario</div>
  *    <svg class="icon"><use xlink:href="#icon-short"></use></svg>
  *   </div>
  */
-.c-cell-title-button {
+.c-order-filter-button {
   cursor: pointer;
 
   .f-ff1-m-bold {
     display: inline-block;
+    line-height: 1.63;
   }
 
   .icon {
@@ -152,5 +153,54 @@
     height: rem(11px);
     margin-left: rem(3px);
     opacity: 0.3;
+  }
+}
+
+/**
+ * @atom Delete button
+ * @section Buttons
+ * @markup
+ *   <div class="c-delete-button">
+ *    <svg class="icon"><use xlink:href="#icon-delete"></use></svg>
+ *   </div>
+ */
+.c-delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(28px);
+  height: rem(28px);
+  border-radius: 100%;
+  border: solid 1px $color-app-6;
+  cursor: pointer;
+
+  .icon {
+    width: rem(12px);
+    height: rem(14px);
+  }
+}
+
+/**
+ * @atom Edit button
+ * @section Buttons
+ * @markup
+ *   <div class="c-edit-button">
+ *    <svg class="icon"><use xlink:href="#icon-edit"></use></svg>
+ *   </div>
+ */
+.c-edit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(28px);
+  height: rem(28px);
+  border-radius: 100%;
+  background-color: $color-app-6;
+  cursor: pointer;
+
+  .icon {
+    width: rem(14px);
+    height: rem(14px);
+    fill: $color-app-3;
   }
 }

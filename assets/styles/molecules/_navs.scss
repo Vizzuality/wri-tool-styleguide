@@ -47,6 +47,10 @@
       background-color: $color-app-6;
     }
   }
+
+  &.f-ff1-xs {
+    line-height: 1.64;
+  }
 }
 
 /**
@@ -69,5 +73,9 @@
 
   li {
     margin-bottom: rem(13px);
+  }
+
+  &.f-ff1-m {
+    line-height: 1.63;
   }
 }
